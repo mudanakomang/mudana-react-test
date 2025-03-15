@@ -17,7 +17,7 @@ To run this project locally, follow these steps:
    git clone https://github.com/mudanakomang/mudana-react-test.git
 
 2. **Navigate to the project folder:**
-    ```
+    ```sh
     cd mudana-react-test
 3. **Install dependencies:**
     ```
@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
     GITHUB_AUTH_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
 
 5. **Start the development server:**
-    ```
+    ```sh
     npm start
 
 The application will be available at http://localhost:3000/.
@@ -51,7 +51,7 @@ The application will be available at http://localhost:3000/.
 The app uses Octokit to interact with GitHub's REST API to fetch user data and repositories:
 
 - Search Users:
-    ```
+    ```js
     const response = await octokit.request('GET /search/users', {
         q: username,
         per_page: 5,
@@ -59,7 +59,7 @@ The app uses Octokit to interact with GitHub's REST API to fetch user data and r
     ```
 
 - Fetch Repositories:
-    ```
+    ```js
     const response = await octokit.request(`GET /users/${username}/repos`);
 
 ## License
