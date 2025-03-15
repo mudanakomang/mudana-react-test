@@ -69,6 +69,8 @@ The app uses Octokit to interact with GitHub's REST API to fetch user data and r
 ## Recording
 https://github.com/user-attachments/assets/a5c895b4-af39-4264-8064-76704c54bb56
 
+## Live Demo 
+https://mudana-react-test.vercel.app
 ## License
 This project is open-source and available under the MIT License.
 
