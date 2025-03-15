@@ -61,6 +61,16 @@ The app uses Octokit to interact with GitHub's REST API to fetch user data and r
 - Fetch Repositories:
     ```js
     const response = await octokit.request(`GET /users/${username}/repos`);
+## Screenshots
+![image](https://github.com/user-attachments/assets/03677c38-c0a5-4baf-83b7-83f64d505b22)
+![image](https://github.com/user-attachments/assets/7d2c5a05-01a8-4a78-832a-70b82e0f04e0)
+![image](https://github.com/user-attachments/assets/a9b5eb96-86e8-474c-b5e8-f660184cb48b)
+
+## Recording
+https://github.com/user-attachments/assets/a5c895b4-af39-4264-8064-76704c54bb56
 
 ## License
 This project is open-source and available under the MIT License.
+
+
+
