@@ -14,16 +14,20 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/mudana-react-test.git
+   git clone https://github.com/mudanakomang/mudana-react-test.git
 
 2. **Navigate to the project folder:**
     ```
     cd mudana-react-test
 3. **Install dependencies:**
     ```
-    npm install
+    npm install or yarn install
+4. **Create `.env` file Add GitHub personal token:**
+    - [How To managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+    ```
+    GITHUB_AUTH_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
 
-4. **Start the development server:**
+5. **Start the development server:**
     ```
     npm start
 
